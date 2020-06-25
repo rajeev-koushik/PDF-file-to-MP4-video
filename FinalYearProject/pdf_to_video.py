@@ -328,9 +328,9 @@ for line in fr:
     print("s_file_names")
 
     video_clip_list = []
-    black_clip = mp.ImageClip('./downloads/black1.jpg').set_duration(0.1).set_fps(_FPS)
+    black_clip = mp.ImageClip('./downloads/black.jpg').set_duration(0.1).set_fps(_FPS)
     video_clip_list.append(black_clip)
-    black = './downloads/black1.jpg'
+    black = './downloads/black.jpg'
     title_clip_list = []
     if number_of_images > 0:
         for f in s_file_names:
